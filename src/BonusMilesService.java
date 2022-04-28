@@ -1,9 +1,9 @@
 public class BonusMilesService {
     public int calculate(int cost) {
         int bonusForOneMile = 20; // количество рублей за 1 милю
-        int price = cost / bonusForOneMile; // количество наичисленных мили за билет
+        int bonus = cost / bonusForOneMile; // количество наичисленных мили за билет
 
-        return price;
+        return bonus;
     }
 }
 /*
@@ -11,8 +11,8 @@ public class BonusMilesService {
 public class BonusMilesService {
     public void calculate(int cost) {
         int bonusForMile = 20;
-        int price = cost / bonusForMile;
-        System.out.println("Доступно количество бонусов: " + price);
+        int bonus = cost / bonusForMile;
+        System.out.println("Доступно количество бонусов: " + bonus);
     }
 }
 
